@@ -1,0 +1,16 @@
+Schemes: 
+	people(person1,person2,person3,person4)
+	
+Facts:
+	people('1','1','1','1').
+	people('1','1','1','2').
+	people('1','1','2','2').
+	
+	people('1','2','2','2').
+Rules:
+	employer(X,Y):- people(Y,X).
+	employer(X,Y):- people(X,Z),employer(Z,Y).
+	people(X,Y):- people(Y,X).
+Queries:
+	people(t,t,t,t)?
+	

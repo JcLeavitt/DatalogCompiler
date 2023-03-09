@@ -1,0 +1,16 @@
+#|This test case checks for the Q_MARK verification at the end of the program. It should fail.|#
+
+Schemes:
+j93029 (hooray
+
+
+
+
+
+)
+Facts:          
+ken('happy','sad','bad','horrid','maggots').
+Rules:
+hard213(thisthing2,thisthing1,drwho,imwho,whoswho):-who5('her',('him'+'her'),(jake929399*sandy3888)).
+Queries:
+school9(('that'+'this'),(hungry*full))

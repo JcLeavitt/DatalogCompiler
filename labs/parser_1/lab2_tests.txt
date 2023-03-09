@@ -1,0 +1,12 @@
+g++ -g -Wall -std=c++14 *.cpp *.h -o lab2_1
+pmccabe *.h *.cpp
+./lab2_1 testa.txt
+./lab2_1 testb.txt
+./lab2_1 testc.txt
+./lab2_1 testd.txt
+./lab2_1 teste.txt
+./lab2_1 testf.txt
+./lab2_1 testg.txt
+./lab2_1 testh.txt
+./lab2_1 testi.txt
+./lab2_1 testj.txt

@@ -1,0 +1,6 @@
+g++ -g -Wall -std=c++14 *.cpp *.h -o lab3_2
+./lab3_2 test1.txt > testoutput1.txt
+./lab3_2 test2.txt > testoutput2.txt
+./lab3_2 test3.txt > testoutput3.txt
+./lab3_2 test4.txt > testoutput4.txt
+./lab3_2 test5.txt > testoutput5.txt

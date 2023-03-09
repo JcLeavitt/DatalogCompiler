@@ -1,0 +1,21 @@
+#|This test case has multiple correct programs in the file, it should fail on the second "Schemes".|#
+Schemes:hi(no)
+Facts:
+Rules:
+Queries:bye(yes)?
+
+Schemes:
+j93029 (hooray,
+booty, hunk,
+tori)
+Facts:          
+ken('happy','sad','bad').
+Rules:
+hard213(thisthing2,thisthing1):-who5('her').
+Queries:
+school9(('that'+'this'),(hungry*full))?
+
+Schemes:hi(no)
+Facts:
+Rules:
+Queries:bye(yes)?

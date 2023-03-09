@@ -1,0 +1,24 @@
+#|This test case checks to make sure that all comments are ignored in the program no matter where you start them. It should succeed.|#
+
+#a;lkjsl;kk
+Schemes:#|
+
+;lkjalks fj;s :: Schemes: |#
+j93029 (hooray,
+booty, hunk,
+tori) #a;lkjsjjfjjjjfjjjfj
+Facts:          
+ken('happy','sad','bad').
+#a;lskjdf
+
+Rules:
+#alkjhh
+hard213(thisthing2,thisthing1):-who5('her').
+Queries:
+#|;a;sdlkjf fjj;lk
+
+s;lk
+s
+s
+|#
+school9(('that'+'this'),(hungry*full))?

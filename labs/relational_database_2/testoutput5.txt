@@ -1,0 +1,17 @@
+people('joe','jim',X,Y,Z,A)? Yes(1)
+  X='jake', Y='jazzlyn', Z='felicity', A='laura'
+people(who,'bob',X,Y,Z,A)? Yes(3)
+  who='bob', X='jennings', Y='tori', Z='kimball', A='missy'
+  who='jim', X='jim', Y='jim', Z='bob', A='jim'
+  who='joe', X='tori', Y='jennings', Z='kimball', A='missy'
+people('joe',anyone,'jake',X,'felicity',Y)? Yes(1)
+  anyone='jim', X='jazzlyn', Y='laura'
+people(X,X,A,B,C,D)? Yes(1)
+  X='bob', A='jennings', B='tori', C='kimball', D='missy'
+people(X,Y,X,X,Y,X)? Yes(1)
+  X='jim', Y='bob'
+employer('ralph',X)? Yes(1)
+  X='howard'
+employer('bob','bob')? No
+employer(X,Y)? Yes(1)
+  X='ralph', Y='howard'

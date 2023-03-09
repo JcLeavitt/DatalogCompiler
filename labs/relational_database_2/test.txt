@@ -1,0 +1,31 @@
+ 
+Schemes:
+   snap(W,X,Y,Z)
+   csg(X,Y,Z)
+   cp(X,Y)
+   cdh(X,Y,Z)
+   cr(X,Y)
+   before(X,Y)
+   mwfCourses(X,Y)
+   Schedule(V,W,X,Y,Z)
+   Grades(X,Y,Z)
+   Roll(V,W,X,Y,Z)
+
+Facts:
+   snap('1234','Charley','Apple St','555-1234'). 
+   snap('1111','Linus','Piano St','555-1111'). 
+   snap('1212','Lucy','Home Ln','555-1212'). 
+   snap('3333','Marcie','Banana St','555-3333'). 
+   snap('5678','Patty','Grape Blvd','555-5678').
+   snap('7890','Pig Pen','Pear Ave','555-7890').
+
+
+Rules:
+   before(C1,C2):-cp(C2,C1).
+   before(C1,C2):-cp(C3,C1),before(C3,C2).
+   mwfCourses(C,R):-cdh(C,'M',H),cr(C,R).
+   mwfCourses(C,R):-cdh(C,'W',H),cr(C,R).
+   
+Queries: 
+   snap(S,N,A,P)? 
+

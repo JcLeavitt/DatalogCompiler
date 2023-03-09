@@ -1,0 +1,11 @@
+#|This test case is a generic correct test case that should output success at the end.|#
+Schemes:
+j93029 (hooray,
+booty, hunk,
+tori)
+Facts:          
+ken('happy','sad','bad').
+Rules:
+hard213(thisthing2,thisthing1):-who5('her').
+Queries:
+school9(('that'+'this'),(hungry*full))?

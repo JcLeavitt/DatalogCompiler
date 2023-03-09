@@ -1,0 +1,21 @@
+Schemes:
+cdh(x,y,z)
+cr(x,y)
+mwfCourses(c,r)
+
+Facts:
+
+cdh('CS101','Tu','10AM').
+cdh('EE200','M','10AM').
+cdh('EE200','W','1PM').
+cdh('EE200','F','10AM').
+cdh('PH100','Tu','11AM').
+cr('CS101','Study').
+cr('EE200','Hall').
+cr('PH100','Lab').
+
+Rules:
+mwfCourses(C,R):-cdh(C,'M',H),cr(C,R).
+Queries: 
+
+mwfCourses (Course,Room)?

@@ -1,0 +1,39 @@
+#|This test case checks for lots of whitespace \n \t etc. it should succeed.|#
+Schemes:
+
+
+
+
+
+    pokedex
+    
+    (pidgey,
+    
+rattata, spearow,
+
+sandshrew)
+
+Facts
+
+:          
+ground
+
+('sandslash','geodude','golem').
+
+
+Rules:
+
+
+largepokemon(charizard,blastoise,venasaur)
+
+:-
+
+pikachu(potion).
+
+Queries
+:
+
+
+whosthatpokemon(
+
+charizard,ground)?

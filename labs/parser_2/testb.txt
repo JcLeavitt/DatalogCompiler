@@ -1,0 +1,5 @@
+#|This test case gives the minimum input that should result in a successful parse.|#
+Schemes:hi(no)
+Facts:
+Rules:
+Queries:bye(yes)?

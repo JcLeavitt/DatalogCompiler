@@ -1,0 +1,11 @@
+#|This test case leaves out a comma in the parameterList portion of the predicate. It should fail.|#
+Schemes:
+    pokedex (pidgey,
+rattata, spearow,
+sandshrew)
+Facts:          
+ground('sandslash','geodude','golem').
+Rules:
+largepokemon(charizard,blastoise,venasaur):-pikachu(potion).
+Queries:
+whosthatpokemon(charizard ground)?

@@ -1,0 +1,9 @@
+#|This test case leaves out the scheme and query that should be included right after Schemes and Queries respectively.
+This program should fail.|#
+Schemes:
+
+Facts:          
+
+Rules:
+
+Queries:

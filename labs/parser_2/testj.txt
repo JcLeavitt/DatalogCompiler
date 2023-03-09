@@ -1,0 +1,30 @@
+#|This test case checks to make sure that all comments are ignored in the program no matter where you start them. It should succeed.|#
+
+#a;lkjsl;kk
+Schemes:#|
+
+;lkjalks fj;s :: Schemes: |#
+j93029 (hooray,
+booty, hunk,
+tori) #a;lkjsjjfjjjjfjjjfj
+j9302e9 (hooray1,booty2, hunk3,tori4)
+Facts:          
+ken('happy','sad','bad').
+#a;lskjdf
+ken1('happiness','sadness','badness').
+
+Rules:
+#alkjhh
+hard213(thisthing2,thisthing1):-who5('her',stupid),them(('hit'+'slap')),h3939(k992,(kk+dd),(sls*jfk),('sjk'*'kkkk'),((me*you)+(tu+yo))).
+soft213(thisthing3,thisthing4):-who6('hers'),they(('hits'+'slaps'),h39394,k9924,(kk1+dd1),(sls1*jfk1),('sjk1'*'kkkk1')).
+
+Queries:
+#|;a;sdlkjf fjj;lk  
+
+s;lk
+s
+s
+|#
+school9(('that'+'this'),(hungry*full))?
+school19(('thats'+'thiss'),(hungry3*full55))?
+school29(('thatd'+'thisd'),(hungry4*full6))?

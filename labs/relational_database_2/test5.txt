@@ -1,0 +1,24 @@
+Schemes: 
+	people(person1,person2,person3,person4,person5,person6)
+	employer(boss,employee)
+Facts:
+	people('joe','bob','tori','jennings','kimball','missy').
+	people('jim','jim','jim','jim','jim','jim').
+	people('joe','jim','jake','jazzlyn','felicity','laura').
+	people('bob','bob','jennings','tori','kimball','missy').
+Rules:
+	employer(X,Y):- people(Y,X).
+	employer(X,Y):- people(X,Z),employer(Z,Y).
+	people(X,Y):- people(Y,X).
+Queries:
+	employer('jake', X)?
+	employer('rhett','bob')?
+	people('joe','jim',X,Y,Z,A)?
+	people( who, 'bob',X,Y,Z,A)?
+	people('joe', anyone,'jake',X,'felicity',Y)?
+	people(X,X,A,B,C,D)?
+	people(X,X,X,X,X,X)?
+	employer(X,Y)?
+	employer('bob', X)?
+	employer('bob','bob')?
+	
